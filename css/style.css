@@ -25,17 +25,30 @@ nav a {
 nav a:hover {
   background-color: #111;
 }
-
-section {
+/*Main*/
+main {
   width: 1000px;
   margin:0 auto;
   font-family: sans-serif;
 }
-section p {
+main p {
   width: 750px;
 }
 aside {
   float: right;
   width: 200px;
   font-size:16px;
+}
+/*Project Page*/
+div.project {
+  width: 250px;
+  float:left;
+}
+div.project a {
+  text-decoration: none;
+}
+div.project img {
+  width: 220px;
+  height: 220px;
+  margin: 0px 15px;
 }

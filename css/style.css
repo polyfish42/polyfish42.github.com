@@ -1,0 +1,41 @@
+body {
+  font-family: verdana;
+  font-size: 20px;
+  color: #333;
+  line-height: 30px;
+}
+/*Navigation*/
+nav ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+nav li {
+  float:left;
+}
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #111;
+}
+
+section {
+  width: 1000px;
+  margin:0 auto;
+  font-family: sans-serif;
+}
+section p {
+  width: 750px;
+}
+aside {
+  float: right;
+  width: 200px;
+  font-size:16px;
+}

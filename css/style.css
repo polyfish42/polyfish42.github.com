@@ -52,3 +52,19 @@ div.project img {
   height: 220px;
   margin: 0px 15px;
 }
+/* Decider Bot*/
+body#deciderbot {
+  background: linear-gradient(to right, #193984, #E2778D);
+}
+body#deciderbot h1, p {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+body#deciderbot p {
+  width:auto;
+}
+img#add-to-slack-button {
+  display: block;
+  margin: 0 auto;
+}

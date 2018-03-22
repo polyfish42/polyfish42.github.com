@@ -81,6 +81,10 @@ a:visited {
   margin-top: 20px;
 }
 
+section {
+  margin-bottom: 50px;
+}
+
 #projects {
   display: flex;
   justify-content: space-around;
@@ -88,7 +92,6 @@ a:visited {
   flex-wrap: wrap;
   margin: 0 auto;
   margin-top: 25px;
-  margin-bottom: 50px;
   max-width: 700px;
 }
 

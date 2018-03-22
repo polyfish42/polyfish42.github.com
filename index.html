@@ -1,50 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Jake Brady</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="css/reset.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+    <title>Jake Brady</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <img src="./images/portrait.png" />
-    <h1>Jake Brady</h1>
-    <p>I'm a creative-type with a coding addiction. I aim to write code that reads like well-written prose. I'm known for communicating clearly, staying calm under pressure, and always being positive.</p>
-    <div id="links">
-      <a href="#">Resume</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">Github</a>
-      <a href="#">Email</a>
-    </div>
-  </header>
-  <main>
-    <section>
-      <div id="projects">
-      <div class="project">
-        <img src="./images/mission_control.png" />
-        <div class="project__description">
-          <h3>Mission Control</h3>
-          <p>Stressless project management. Create todos, send messages, and schedule events</p>
+    <header>
+        <img src="./images/portrait.png" />
+        <h1>Jake Brady</h1>
+        <p>I'm a creative-type with a coding addiction. I aim to write code that reads like well-written prose. I'm known for communicating clearly, staying calm under pressure, and always being positive.</p>
+        <div id="links">
+            <a href="#">Resume</a>
+            <a href="https://www.linkedin.com/in/jacobbrady/">LinkedIn</a>
+            <a href="https://github.com/polyfish42">Github</a>
+            <a href="mailto:jake@jakebrady.me">Email</a>
         </div>
-      </div>
-      <div class="project">
-        <img src="./images/lyle.jpg" />
-        <div class="project__description">
-          <h3>Lyle</h3>
-          <p>Ruby web-framework with ORM, controllers, routers, rendering, and CSRF proteciton.</p>
-        </div>
-      </div>
-      <div class="project">
-        <img src="./images/the_witness.jpg" />
-        <div class="project__description">
-          <h3>The Witness Puzzle Game</h3>
-          <p>Line puzzle game inspired by The Witness.</p>
-        </div>
-      </div>
-    </div>
-    </section>
-  </main>
+    </header>
+    <main>
+        <section>
+            <div id="projects">
+                <div class="project__wrapper">
+                  <a href="#">
+                    <div class="project">
+                        <img src="./images/mission_control.png" />
+                        <div class="project__description">
+                            <h3>Mission Control</h3>
+                            <p>Stressless project management. Create todos, send messages, and schedule events</p>
+                        </div>
+                    </div>
+                  </a>
+                    <p class="project__links" ><a href="https://demo-mission-control.herokuapp.com">Link</a> | <a href="https://github.com/polyfish42/mission-control">Code</a></p>
+                </div>
+                <div class="project__wrapper">
+                  <a href="#">
+                    <div class="project">
+                        <img src="./images/lyle.jpg" />
+                        <div class="project__description">
+                            <h3>Lyle</h3>
+                            <p>Ruby web-framework with ORM, controllers, routers, rendering, and CSRF proteciton.</p>
+                        </div>
+                    </div>
+                  </a>
+                    <p class="project__links" ><a href="#">Link</a> | <a href="https://github.com/polyfish42/lyle">Code</a></p>
+                </div>
+                <div class="project__wrapper">
+                  <a href="#">
+                    <div class="project">
+                        <img src="./images/the_witness.jpg" />
+                        <div class="project__description">
+                            <h3>The Witness Puzzle Game</h3>
+                            <p>Line puzzle game inspired by The Witness.</p>
+                        </div>
+                    </div>
+                  </a>
+                    <p class="project__links" ><a href="#">Link</a> | <a href="https://github.com/polyfish42/the-witness-puzzle-game">Code</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

@@ -4,8 +4,7 @@
   src: url('../fonts/LatoLatin-Regular.eot?#iefix') format('embedded-opentype'),
        url('../fonts/LatoLatin-Regular.woff2') format('woff2'),
        url('../fonts/LatoLatin-Regular.woff') format('woff'),
-       url('../fonts/LatoLatin-Regular.ttf')  format('truetype'),
-       url('../fonts/webfont.svg#svgFontName') format('svg');
+       url('../fonts/LatoLatin-Regular.ttf')  format('truetype')
 }
 
 * {
@@ -24,7 +23,6 @@
 body {
   font-family: 'LatoLatin-Regular';
   font-size: 100%;
-  padding: 30px;
   color: rgb(27, 27, 27);
   line-height: 1.25;
 }
@@ -32,21 +30,30 @@ body {
 h1 {
   font-size: 2.25em;
   line-height: 2.25;
-  color: #FFE71B;
   white-space: nowrap;
 }
-p  { font-size: 0.75em;  /* 16x0.75=12 */ }
+
+p  {
+  font-size: 0.75em;
+}
 
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  margin-top: 10px;
-  max-width: 38em;
+  margin-top: 30px;
+  max-width: 40em;
+}
+
+header img {
+  border: 1px solid #e5e5e5;
+  border-radius: 100%;
 }
 
 header p {
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
   font-size: 1.15em;
 }
@@ -54,7 +61,7 @@ header p {
 a {
   text-decoration: none;
   display: inline-block;
-  color: #E87E0C;
+  color: #0D68FF;
 }
 
 a:hover {
@@ -62,7 +69,7 @@ a:hover {
 }
 
 a:visited {
-  color: #E87E0C;
+  color: #0D68FF;
 }
 
 #links {
@@ -93,6 +100,10 @@ a:visited {
   margin-top: 20px;
 }
 
+.project__wrapper a {
+  color: rgb(27,27,27)
+}
+
 .project img {
   max-width: 100%;
 }
@@ -103,4 +114,12 @@ a:visited {
   border-top: 1px solid #e5e5e5;
   padding: 5px;
   bottom: 0;
+}
+
+.project__links {
+  text-align: center;
+}
+
+.project__links a {
+  color: #0D68FF;
 }

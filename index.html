@@ -2,25 +2,47 @@
 <html lang="en">
 <head>
   <title>Jake Brady</title>
+  <link href="css/reset.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
-<nav>
-  <ul>
-    <li><a href="#">Projects</a></li>
-    <li><a href="https://www.youtube.com/user/Moviefish42">YouTube</a></li>
-    <li><a href="https://medium.com/@inkblottedstars">Medium</a></li>
-  </ul>
-</nav>
-<main>
-  <h1>Projects</h1>
-    <div class="project">
-      <img src="images/fresh15.gif" alt="..." class="img-thumbnail">
-      <!-- Note that this image is slightly stretched. Replace this later. -->
-      <a href="fresh15.html"><h2 style="text-align: center">Fresh 15</h2></a>
+<body>
+  <header>
+    <img src="./images/portrait.png" />
+    <h1>Jake Brady</h1>
+    <p>I'm a creative-type with a coding addiction. I aim to write code that reads like well-written prose. I'm known for communicating clearly, staying calm under pressure, and always being positive.</p>
+    <div id="links">
+      <a href="#">Resume</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Github</a>
+      <a href="#">Email</a>
     </div>
-    <div class="project">
-      <img src="images/decider_bot.gif" alt="..." class="img-thumbnail">
-      <a href="https://nameless-mesa-86165.herokuapp.com"><h2 style="text-align: center">Decider Bot</h2></a>
+  </header>
+  <main>
+    <section>
+      <div id="projects">
+      <div class="project">
+        <img src="./images/mission_control.png" />
+        <div class="project__description">
+          <h3>Mission Control</h3>
+          <p>Stressless project management. Create todos, send messages, and schedule events</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./images/lyle.jpg" />
+        <div class="project__description">
+          <h3>Lyle</h3>
+          <p>Ruby web-framework with ORM, controllers, routers, rendering, and CSRF proteciton.</p>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./images/the_witness.jpg" />
+        <div class="project__description">
+          <h3>The Witness Puzzle Game</h3>
+          <p>Line puzzle game inspired by The Witness.</p>
+        </div>
+      </div>
     </div>
-</main>
+    </section>
+  </main>
+</body>
 </html>

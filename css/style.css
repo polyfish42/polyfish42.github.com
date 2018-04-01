@@ -42,12 +42,13 @@ header {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  margin-top: 30px;
-  max-width: 40em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(-90deg, blue, slateBlue);
+  color: white;
 }
 
 header img {
-  border: 1px solid #e5e5e5;
   border-radius: 100%;
 }
 
@@ -61,7 +62,7 @@ header p {
 a {
   text-decoration: none;
   display: inline-block;
-  color: #0D68FF;
+  color: aqua;  
 }
 
 a:hover {
@@ -69,7 +70,7 @@ a:hover {
 }
 
 a:visited {
-  color: #0D68FF;
+  color: aqua;
 }
 
 #links {
@@ -84,6 +85,14 @@ a:visited {
 section {
   margin-bottom: 50px;
 }
+
+h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 
 #projects {
   display: flex;

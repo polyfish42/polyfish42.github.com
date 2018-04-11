@@ -94,6 +94,9 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-size: 20px;
+}
 
 #projects {
   display: flex;
@@ -108,10 +111,11 @@ h2 {
 
 .project {
   position: relative;
-  width: 400px;
+  max-width: 500px;
   border-radius: 5px;
   overflow: hidden;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .project__wrapper a {
@@ -125,10 +129,12 @@ h2 {
 }
 
 .project__description {
+  margin-top: 10px;
 }
 
 .project__links {
-  text-align: center;
+  text-align: left;
+  margin-top: 5px;
 }
 
 .project__links a {

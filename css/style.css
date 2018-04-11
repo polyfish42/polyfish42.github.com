@@ -124,8 +124,8 @@ h3 {
 
 .project img {
     max-width: 100%;
-    float: left;
-    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .project__description {

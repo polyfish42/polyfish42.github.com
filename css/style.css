@@ -1,16 +1,18 @@
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 80%;
   margin: 0 auto;
   color: #444452;
   font-size: 18px;
 }
 
+/* Intro */
+
 .jumbotron {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .jumbotron_intro {
@@ -25,7 +27,7 @@ body {
   font-family: "MyHandwriting-Regular";
   font-size: 8em;
   letter-spacing: -4px;
-  color: #ff7473;
+  color: #5900ff;
 }
 
 .jake {
@@ -54,3 +56,25 @@ body {
 .project img {
   max-width: 50px;
 }
+
+/* Background */
+
+.background {
+  font-size: 0.9em;
+  max-width: 800px;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+
+.section_header {
+  font-size: 1.4em;
+  color: blue;
+}
+
+.background_text {
+  margin-top: 20px;
+}
+
+/* Skills */
+
+.

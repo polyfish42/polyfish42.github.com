@@ -11,19 +11,32 @@
 </head>
 
 <body>
-  <header>
-    <img src="./images/portrait.png" />
-    <h1>Jake Brady</h1>
-    <div>Hello! My name is Jake Brady and I'm a software engineer. I used to work for <a href="https://www.inflection.com">Inflection</a>, a tech startup in Silicon Valley. Now I live in NYC and I'm looking for a great company to join. Check out my projects
-      below, and feel free to contact me for any reason.</div>
-    <div id="links">
-      <a href="./docs/Jacob Brady.pdf" download>Resume</a>
-      <a href="https://www.linkedin.com/in/jacobbrady/">LinkedIn</a>
-      <a href="https://github.com/polyfish42">Github</a>
-      <a href="https://spamty.eu/mail/v4/784/9pEkW68VGa9ba2432f/">Email me</a>
+  <header class="jumbotron">
+    <div class="jumbotron_intro"> 
+      <h1 class="intro_title" >Hi, I'm <span class="jake">Jake</span></h1>
+      <h1 class="intro_text">I'm a full-stack engineer focused on building correct, readible, and fast code.</h1>
+      <div class="email">
+        <p>Send me an email</p>
+        <img class="arrow" src="./images/arrow.png" alt="">
+        <a href="mailto:jake@jakebrady.me">
+          <p class="email_address">jake@jakebrady.me</p>
+        </a>
+      </div>
     </div>
   </header>
   <main>
+    <section>
+      <h2>Background</h2>
+      <p>I'm currently looking for opportunites in NYC. I recently graduated from App Academy, a bootcamp in NYC, after a career
+        in Markteing at HR Tech startup GoodHire.</p>
+
+      <p>As a software engineer, I enjoy building things that people find useful, intuitive, and reliable. I see software engineering
+        as craftwork. We have a promise with our users to make a solid product that they can rely on to perform. Inside,
+        it needs to be built well so that users can expect new fetaures and performance for years to come.</p>
+
+      <p> When I'm not in front of a computer screen, I'm probably dancing at an EDM club, reading sci fi, or going for a run.
+      </p>
+    </section>
     <section>
       <h2>Projects</h2>
       <div id="projects">
@@ -35,8 +48,12 @@
               </a>
               <div class="project__description">
                 <h3>Mission Control</h3>
-                <p>Create todos, send messages, and schedule events. Built with React and Rails. Includes custom date pickers, time validation logic, async animations, and custom auth.</p>
-                <p class="project__links"><a href="https://demo-mission-control.herokuapp.com">Link</a> | <a href="https://github.com/polyfish42/mission-control">Code</a></p>
+                <p>Create todos, send messages, and schedule events. Built with React and Rails. Includes custom date pickers,
+                  time validation logic, async animations, and custom auth.</p>
+                <p class="project__links">
+                  <a href="https://demo-mission-control.herokuapp.com">Link</a> |
+                  <a href="https://github.com/polyfish42/mission-control">Code</a>
+                </p>
               </div>
             </div>
           </div>
@@ -48,9 +65,13 @@
             </a>
             <div class="project__description">
               <h3>Lyle</h3>
-              <p>Ruby web-framework with PSQL ORM, controllers, routers, ERB rendering, static asset server, and CSRF protection. All you need to build a web app without the extras.</p>
+              <p>Ruby web-framework with PSQL ORM, controllers, routers, ERB rendering, static asset server, and CSRF protection.
+                All you need to build a web app without the extras.</p>
             </div>
-            <p class="project__links"><a href="https://lyle-example.herokuapp.com/cats">Example</a> | <a href="https://github.com/polyfish42/lyle">Code</a></p>
+            <p class="project__links">
+              <a href="https://lyle-example.herokuapp.com/cats">Example</a> |
+              <a href="https://github.com/polyfish42/lyle">Code</a>
+            </p>
           </div>
         </div>
         <div class="project__wrapper">
@@ -60,9 +81,13 @@
             </a>
             <div class="project__description">
               <h3>Obelus</h3>
-              <p>Line puzzle game inspired by The Witness built with HTML Canvas and Javascript. Features smart line that guesses where you're going and breadth-first search puzzle solver.</p>
+              <p>Line puzzle game inspired by The Witness built with HTML Canvas and Javascript. Features smart line that guesses
+                where you're going and breadth-first search puzzle solver.</p>
             </div>
-            <p class="project__links"><a href="http://jakebrady.me/obelus">Link</a> | <a href="https://github.com/polyfish42/obelus">Code</a></p>
+            <p class="project__links">
+              <a href="http://jakebrady.me/obelus">Link</a> |
+              <a href="https://github.com/polyfish42/obelus">Code</a>
+            </p>
           </div>
         </div>
       </div>

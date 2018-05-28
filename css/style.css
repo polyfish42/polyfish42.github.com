@@ -1,140 +1,56 @@
-@font-face {
-  font-family: 'LatoLatin-Regular';
-  src: url('../fonts/LatoLatin-Regular.eot');
-  src: url('../fonts/LatoLatin-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/LatoLatin-Regular.woff2') format('woff2'),
-       url('../fonts/LatoLatin-Regular.woff') format('woff'),
-       url('../fonts/LatoLatin-Regular.ttf')  format('truetype')
-}
-
-* {
-  -webkit-animation: fadein 0.4s ease;
-     -moz-animation: fadein 0.4s ease;
-      -ms-animation: fadein 0.4s ease;
-       -o-animation: fadein 0.4s ease;
-          animation: fadein 0.4s ease;
-}
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
 body {
-  font-family: 'LatoLatin-Regular';
-  font-size: 100%;
-  color: rgb(27, 27, 27);
-  line-height: 1.25;
+  font-family: "Helvetica", sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  color: #444452;
+  font-size: 18px;
 }
 
-h1 {
-  font-size: 2.25em;
-  line-height: 2.25;
-  white-space: nowrap;
-}
-
-p  {
-  font-size: 0.9em;
-}
-
-header {
+.jumbotron {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.jumbotron_intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80%;
+  max-height: 600px;
+}
+
+.intro_title {
+  font-family: "MyHandwriting-Regular";
+  font-size: 8em;
+  letter-spacing: -4px;
+  color: #ff7473;
+}
+
+.jake {
+  letter-spacing: -13px;
+}
+
+.intro_text {
+  justify-content: left;
+  font-size: 2.5em;
+  width: 700px;
+  line-height: 1.3em;
+}
+
+.email {
+  font-size: 1.2em;
+  display: flex;
   align-items: center;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background: linear-gradient(-90deg, blue, slateBlue);
-  color: white;
 }
 
-header img {
-  border-radius: 100%;
-}
-
-header div {
-  padding-left: 10px;
-  padding-right: 10px;
-  max-width: 39em;
-  text-align: center;
-  font-size: 1.15em;
-}
-
-a {
-  text-decoration: none;
-  display: inline-block;
-  color: aqua;
-}
-
-a:hover {
+.email_address {
+  color: #444452;
   text-decoration: underline;
-}
-
-a:visited {
-  color: aqua;
-}
-
-#links {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 20em;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-section {
-  margin-bottom: 50px;
-}
-
-h2 {
-  margin-top: 30px;
-  text-align: center;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-#projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  margin-top: 25px;
-  max-width: 800px;
-}
-
-.project {
-  position: relative;
-  max-width: 500px;
-  border-radius: 5px;
-  overflow: hidden;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-
-.project__wrapper a {
-  color: rgb(27,27,27)
+  text-decoration-color: #00b9f1;
 }
 
 .project img {
-    max-width: 100%;
-}
-
-.project__description {
-  margin-top: 10px;
-}
-
-.project__links {
-  text-align: left;
-  margin-top: 5px;
-}
-
-.project__links a {
-  color: #0D68FF;
+  max-width: 50px;
 }

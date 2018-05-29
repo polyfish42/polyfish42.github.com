@@ -1,18 +1,18 @@
 :root {
-  --modular-scale: 1.5;
+  --modular-scale: 1.25;
   --red: #ff7473;
   --blue: #47b8e0;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 597px) {
   :root {
-    --modular-scale: 1.667;
+    --modular-scale: 1.28;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 997px) {
   :root {
-    --modular-scale: 1.875;
+    --modular-scale: 1.333;
   }
 }
 
@@ -28,43 +28,37 @@ body {
 
 h1 {
   font-family: "Jakeshandwriting";
-  font-size: calc(var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * 1em);
-  letter-spacing: -4px;
+  font-size: calc(var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale)* var(--modular-scale)* var(--modular-scale) * var(--modular-scale) * 1em);
   color: var(--blue);
 }
 
-.jake {
-  letter-spacing: -13px;
-}
-
 h2 {
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Lato', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Raleway', sans-serif;
   justify-content: left;
-  font-size: calc(var(--modular-scale) * var(--modular-scale) * 1em);
-  max-width: 700px;
+  font-size: calc(var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * 1em);
+  max-width: 650px;
   line-height: 120%;
+  margin-bottom: 1em;
 }
 
 h3 {
-  /* font-family: 'Roboto', sans-serif; */
-   font-family: 'Lato', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Raleway', sans-serif;
   font-size: calc(var(--modular-scale) * 1em);
   line-height: 145%;
   color: var(--blue);
 }
 
 h4 {
-    /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Lato', sans-serif;
-  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Raleway', sans-serif;
 }
 
 h4, p, li {
   font-size: 1em;
   line-height: 145%;
+}
+
+p {
+  margin-bottom: 1em;
 }
 
 .link, .link:visited {
@@ -84,17 +78,22 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 80%;
-  max-height: 600px;
 }
 
 .email {
-  display: flex;
-  align-items: center;
+  font-size: calc(var(--modular-scale) * 1em);
+}
+
+.email div {
+  margin-right: 10px;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 .arrow {
   font-family: "Jakeshandwriting";
+  font-size: 2em;
+  margin-top: 10px;
   color: #ffc952;
 }
 
@@ -105,39 +104,45 @@ header {
 }
 
 .project img {
-  max-width: 350px;
+  max-width: 450px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+section {
+  margin-bottom: 5em;
 }
 
 /* Background */
 
 .background {
-  max-width: 800px;
-}
-
-.background_text {
-  margin-top: 20px;
+  max-width: 600px;
 }
 
 /* Skills */
+.skills_section {
+  max-width: 600px;
+}
+
 .skills {
-  max-width: 800px;
   display: flex;
   justify-content: space-between;
 }
 
 /* Projects */
 #projects {
-  max-width: 800px;
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
 }
 
 .project {
   display: flex;
-}
-
-.project__name {
-  font-weight: bold;
+  margin-bottom: 4em;
 }
 
 .project__description {

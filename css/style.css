@@ -6,6 +6,10 @@ body {
   font-size: 18px;
 }
 
+.link, .link:visited {
+  color: #ff7473;
+}
+
 /* Intro */
 
 .jumbotron {
@@ -101,8 +105,19 @@ body {
   max-width: 800px;
   display: flex;
   flex-direction: column;
+  line-height: 1.5em;
 }
 
 .project {
   display: flex;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.project__name {
+  font-weight: bold;
+}
+
+.project__description {
+  margin-left: 20px;
 }

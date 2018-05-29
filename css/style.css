@@ -2,7 +2,7 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 80%;
   margin: 0 auto;
-  color: #444452;
+  color: #34314c;
   font-size: 18px;
 }
 
@@ -24,10 +24,10 @@ body {
 }
 
 .intro_title {
-  font-family: "MyHandwriting-Regular";
+  font-family: "Jakeshandwriting";
   font-size: 8em;
   letter-spacing: -4px;
-  color: #5900ff;
+  color: #47b8e0;
 }
 
 .jake {
@@ -37,7 +37,7 @@ body {
 .intro_text {
   justify-content: left;
   font-size: 2.5em;
-  width: 700px;
+  max-width: 700px;
   line-height: 1.3em;
 }
 
@@ -47,14 +47,19 @@ body {
   align-items: center;
 }
 
+.arrow {
+  font-family: "Jakeshandwriting";
+  color: #ffc952;
+}
+
 .email_address {
-  color: #444452;
+  color: #34314c;
   text-decoration: underline;
-  text-decoration-color: #00b9f1;
+  text-decoration-color: #ff7473;
 }
 
 .project img {
-  max-width: 50px;
+  max-width: 350px;
 }
 
 /* Background */
@@ -68,7 +73,7 @@ body {
 
 .section_header {
   font-size: 1.4em;
-  color: blue;
+  color: #47b8e0;
 }
 
 .background_text {
@@ -76,5 +81,28 @@ body {
 }
 
 /* Skills */
+.skills {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
 
-.
+.skills_header {
+  font-weight: bold;
+}
+
+/* Projects */
+#projects {
+  margin-top: 40px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  display: flex;
+}

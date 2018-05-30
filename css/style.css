@@ -25,7 +25,6 @@ body {
 }
 
 /* Typography */
-
 h1 {
   font-family: "Jakeshandwriting";
   font-size: calc(var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale)* var(--modular-scale)* var(--modular-scale) * var(--modular-scale) * 1em);
@@ -33,18 +32,17 @@ h1 {
 }
 
 h2 {
-  font-family: 'Raleway', sans-serif;
-  justify-content: left;
   font-size: calc(var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * 1em);
   max-width: 650px;
+}
+
+h2, h3 {
+  font-family: 'Raleway', sans-serif;
   line-height: 120%;
-  margin-bottom: 1em;
 }
 
 h3 {
-  font-family: 'Raleway', sans-serif;
   font-size: calc(var(--modular-scale) * 1em);
-  line-height: 145%;
   color: var(--blue);
 }
 
@@ -103,37 +101,37 @@ header {
   text-decoration-color: #ff7473;
 }
 
-.project img {
-  max-width: 450px;
-}
+/* Main */
 
 main {
+  margin-bottom: 5em;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 
 section {
-  margin-bottom: 5em;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-/* Background */
-
-.background {
-  max-width: 600px;
+.background > h3 {
+  flex-basis: 300px;
 }
 
-/* Skills */
-.skills_section {
-  max-width: 600px;
+.background__content {
+  flex-basis: 700px;
+}
+
+.skills_section > h3 {
+  flex-basis: 300px;
 }
 
 .skills {
+  flex-basis: 700px;
   display: flex;
   justify-content: space-between;
 }
 
-/* Projects */
 #projects {
   max-width: 1200px;
   display: flex;
@@ -147,4 +145,8 @@ section {
 
 .project__description {
   margin-left: 20px;
+}
+
+.project img {
+  max-width: 450px;
 }

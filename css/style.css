@@ -48,10 +48,11 @@ h2, h3 {
 h3 {
   font-size: calc(var(--modular-scale) * 1em);
   color: var(--blue);
+  margin-bottom: 1em;
 }
 
 h4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway-bold', sans-serif;
 }
 
 h4, p, li {

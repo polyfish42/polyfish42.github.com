@@ -26,13 +26,13 @@ body {
 
 /* Typography */
 h1 {
-  font-family: "Jakeshandwriting";
+  font-family: "Jakes Handwriting";
   font-size: calc(var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale)* var(--modular-scale)* var(--modular-scale) * var(--modular-scale) * 1em);
   color: var(--blue);
 }
 
-.jake {
-  letter-spacing: -13px;
+.j--kerning {
+  letter-spacing: -18px;
 }
 
 h2 {
@@ -93,11 +93,27 @@ header {
   margin-top: 10px;
 }
 
-.arrow {
-  font-family: "Jakeshandwriting";
+.arrow, .arrow--down {
+  font-family: "Jakes Handwriting";
   font-size: 2em;
   margin-top: 10px;
   color: #ffc952;
+  position: relative;
+  top: 7px;
+}
+
+.email > .arrow--down {
+  display: none;
+}
+
+@media screen and (max-width: 514px) {
+  .email > .arrow--down {
+    display: inline;
+  }
+  
+  .email > .arrow {
+    display: none;
+  }
 }
 
 .email_address {

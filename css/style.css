@@ -31,6 +31,10 @@ h1 {
   color: var(--blue);
 }
 
+.jake {
+  letter-spacing: -13px;
+}
+
 h2 {
   font-size: calc(var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * 1em);
   max-width: 650px;
@@ -112,6 +116,7 @@ main {
 section {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: calc(var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * 1em);
 }
 
 .background > h3 {
@@ -128,10 +133,17 @@ section {
 
 .skills {
   flex-basis: 700px;
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
 }
 
+@media screen and (max-width: 620px) {
+ .skills_category {
+   width: 47%;
+   margin-bottom: 1em;
+ }
+}
 #projects {
   max-width: 1200px;
   display: flex;

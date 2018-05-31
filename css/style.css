@@ -1,7 +1,13 @@
 :root {
-  --modular-scale: 1.25;
+  --modular-scale: 1.19;
   --red: #ff7473;
   --blue: #47b8e0;
+}
+
+@media screen and (min-width: 395px) {
+  :root {
+    --modular-scale: 1.25;
+  }
 }
 
 @media screen and (min-width: 597px) {

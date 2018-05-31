@@ -53,7 +53,7 @@ h1 {
 
 h2 {
     font-size: calc(var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * var(--modular-scale) * 1em);
-    max-width: 650px;
+    max-width: 580px;
 }
 
 h2,
@@ -89,6 +89,23 @@ p {
 }
 
 /* Header */
+
+.professional_links {
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    top: 30px;
+}
+
+.professional_links a {
+    margin-right: 12px;
+    font-size: 30px;
+    color: var(--black)
+}
+
+.fa-file-alt {
+    font-size: 26px;
+}
 
 header {
     height: 100vh;
@@ -127,7 +144,7 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 413px) {
     .email>.arrow--down {
         display: inline;
     }

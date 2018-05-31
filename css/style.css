@@ -178,7 +178,7 @@ section {
 @media screen and (max-width: 620px) {
     .skills_category {
         width: 47%;
-        margin-bottom: 1em;
+        margin-bottom: 2em;
     }
 }
 

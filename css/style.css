@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'Jakes Handwriting';
+    src: url('../fonts/JakesHandwriting-Regular.otf');
+    /* src: url('../fonts/LatoLatin-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LatoLatin-Regular.woff2') format('woff2'),
+         url('../fonts/LatoLatin-Regular.woff') format('woff'),
+         url('../fonts/LatoLatin-Regular.ttf')  format('truetype') */
+  }
+  
+  * {
+    -webkit-animation: fadein 0.4s ease;
+       -moz-animation: fadein 0.4s ease;
+        -ms-animation: fadein 0.4s ease;
+         -o-animation: fadein 0.4s ease;
+            animation: fadein 0.4s ease;
+  }
+  
+  @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
 body {
     font-family: 'Open Sans', sans-serif;
     width: 80%;
